@@ -8,4 +8,3 @@ echo "O $nome tem $idade anos de idade <br> <br>";
 require 'index.php';
 
 echo "Sua idade é $idade anos, e seu nome é $nome";
-
