@@ -1,9 +1,5 @@
 <?php
 
-$name = 'Danilo';
-$number = 23;
-
-echo gettype ($number);
 
 //string
 //echo gettype ('letras letras letras');
@@ -26,3 +22,31 @@ echo gettype(new Pessoa);*/
 
 //null
 //echo gettype (null);
+
+/*$name = 'Danilo';
+$number = 23;
+echo gettype ($number);*/
+
+// sem/com REFERENCIA:
+
+// _EX. 1:_
+
+/*$name = 'danilo';
+
+$myName = $name;
+
+$name = 'jairo';
+
+echo $name;
+echo $myName;*/
+
+// _EX. 2:_
+
+$name = 'danilo';
+
+$myName = &$name;
+
+$name = 'jairo';
+
+echo $name;
+echo $myName;
