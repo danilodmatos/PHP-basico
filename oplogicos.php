@@ -1,6 +1,6 @@
 <?php
 
-//&& = (e), || = (ou), !(NEGAÇÃO)
+//&& = (and), || = (or), !(NEGAÇÃO)
 
 $canAccess = true; //pode acessar
 $isOlder = false; //é mais velho
@@ -17,12 +17,16 @@ var_dump ($result);*/
 
 var_dump(!!$canAccess); //se colocar "!!" dois sinais, ele continua com o mesmo valor
 
-function ePar(int $n) {
+/*function ePar(int $n) {
     if ($n % 2 != 0) {
         return "é impar";
     } 
     return "é par";
 }
+echo ePar(4);*/ //função para ser um numero é imprar ou par usndo "!"
 
-echo ePar(4);
+// Extra:
+//Os Valores "TRUTHY" e "FALSY" são valores que se comportam como valores booleanos, mas não são valores booleanos
+
+
 
