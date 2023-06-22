@@ -38,7 +38,7 @@ if ($_SESSION['logged']){
 
 // Se liga => Um valor booleano não é exclusivamente o valor puro TRUE e FALSE, você pode utilizar ambos, mas muitas vezes vai ter que usar valores que não são propriamente valores booleanos TRUE e FALSE, mas que se comportam como esses valores TRUE e FALSE
 
-$name = 'Danilo';
+/*$name = 'Danilo';
 $age = 21;
 $logged = false;  //valor pulo booleano 'false'
 
@@ -48,9 +48,15 @@ if($name === 'Danilo' && $age > 18 && $logged === true){ //os três precisam ser
 }
 else{
    echo'é falso';
-}
+}*/
 
 //OBS.: SE VOCÊ QUISER TRABALHAR POR EXEMPLO COM UMA VARIAVEL COMO SE ELA FOSSE UMA VALOR BOOLEANO PURO, FAÇA ASSIM:
 
 // $name =!!'Danilo';    ("!!" transforma a variavel em true)
 // if($name = true);     (onde iria coloca o nome coloco o valor booleno "true")
+
+//A mesma coisapara falso:
+//if(!logged) mostrará que o valor é falso
+
+ //Quando é um valor booleano puro true, você não precisa colocar o sinal de == ou === é so colocar:
+ // if($name) => quando você coloca if alguma coisa, quer dizer que você quer verificar se é verdadeiro
