@@ -16,11 +16,17 @@ echo $number1 + 56;*/
 
 //Agora quero verificar se o que eu to fazendo no cauculo, é um valor numerico ou não, para isso existe a função: "is_numeric()", ele verifica se é um número
 
-$number1= 10;
+/*$number1= 10;
 $number2= '20'; //um numero dentro de uma string ele tambem entende que é um número; mas se eu colocar '20 jsjd' com algumas letras, ele não lê 
 
 if(is_numeric($number1) && is_numeric($number2)){
 echo 'é numerico';}
 else{
     echo 'não é numerico';
-}
+}*/
+
+//Paraa arredondar um número: (ceil, ele arredonda pra cima)
+/*echo ceil(34.55);*/
+
+//Para arredondar um número: (floor, ele arredonda pra baixo)
+echo floor(34.55);
