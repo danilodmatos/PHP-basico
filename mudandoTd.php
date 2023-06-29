@@ -1,0 +1,41 @@
+<?php
+
+//MUDANDO TIPOS DE DADOS
+
+//(string)
+//(boolen)
+//(float) //no PHP float e double são sinonimos, tendo o uso para o mesmo fim, são pontos flutuantes, pode ser usado um outro
+//(double) ^^^^^^^^
+//(interger)
+//(object)
+//(array)
+//intVal
+//floatVal
+//doubleVal
+//strVal
+//boolVal
+
+//Mudando um tipo de dado para outro tipo de dado: (você coloca o tipo de dado que você quer mudar dentro do parenteses ())
+//EX.1:
+/*$name = "danilo";  //obs.: se eu colocar aqui uma string vazia (''), ele vai transformar o valor booleano em falso
+
+$change = (boolean) $name;    //change => mudar
+var_dump($change);*/
+
+//EX.2: (transformando number em boolean)
+/*$number = 21;
+
+$change= (boolean) $number;
+var_dump($change);*/
+
+//EX.3: (transformando number em string)
+/*$number = 21;
+
+$change = (string) $number;
+var_dump($change);*/
+
+//EX.4: (transformando float em interger)
+$number = 21.55; // ao ser transformado em interger, perde as casas decimais
+
+$change = (integer) $number;
+var_dump($change);
