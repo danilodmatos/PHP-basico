@@ -35,7 +35,19 @@ $change = (string) $number;
 var_dump($change);*/
 
 //EX.4: (transformando float em interger)
-$number = 21.55; // ao ser transformado em interger, perde as casas decimais
+/*$number = 21.55; // ao ser transformado em interger, perde as casas decimais
 
 $change = (integer) $number;
-var_dump($change);
+var_dump($change);*/
+
+//EX.5: (transformando array em object)
+/*$names = ['Danilo', 'Edson', 'Marcio'];
+
+$change = (object) $names;
+var_dump($change);*/
+
+//Como recupero um objeto no php?
+$person = ['name' => 'Danilo', 'age'=>'21'];
+
+$change = (object) $person;
+var_dump($change -> name);
