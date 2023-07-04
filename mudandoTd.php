@@ -9,6 +9,8 @@
 //(interger)
 //(object)
 //(array)
+
+/*Essas maneiras aqui a baixo de transformar um tipo em outro são as mesmas das de cima, so mudando a maneira qe vocÊ vai utilizar*/
 //intVal
 //floatVal
 //doubleVal
@@ -47,7 +49,27 @@ $change = (object) $names;
 var_dump($change);*/
 
 //Como recupero um objeto no php?
-$person = ['name' => 'Danilo', 'age'=>'21'];
+/*$person = ['name' => 'Danilo', 'age'=>'21'];
 
 $change = (object) $person;
-var_dump($change -> name);
+var_dump($change -> name);*/
+
+//Se eu tiver um objeto e quiser transformar em um array? (geralmente não faz tanto sentido fazer isso)
+/*class person{
+    private $name;
+    public function teste()
+    {
+        return 'teste';
+    }
+}
+
+$person =new person;
+$change = (array) $person;
+
+var_dump($change);*/
+
+//Mudando os tipos de dados usando aquelass outrass maneiras:
+$person = 'Danilo';
+
+$change = boolval($person);
+var_dump($change);
